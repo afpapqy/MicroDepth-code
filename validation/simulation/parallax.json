@@ -1,0 +1,140 @@
+{
+  "definition": "All complete-scene foreground centres in the predeclared 5 mm case, without method-output filtering. Common RGB orientation; f_reference=1316.3658753527188 px. delta=f*((p-d)_xy/(p-d)_z-p_xy/p_z). Also report native distorted 512x384 chart pixels.",
+  "reference_focal_px": 1316.3658753527188,
+  "records": [
+    {
+      "method": "fixed_sL",
+      "view": "L",
+      "scan": "recorded_L",
+      "centre_displacement_camera_mm": [
+        0.1390614275976958,
+        -4.261408621076411,
+        27.346967780599943
+      ],
+      "reference_px": {
+        "n": 3390,
+        "median": 24.955368027588683,
+        "p95": 40.76423558608999,
+        "max": 43.3018298802299
+      },
+      "native_simulation_px": {
+        "n": 3390,
+        "median": 12.159938480368375,
+        "p95": 18.26751944814833,
+        "max": 19.221683500492247
+      }
+    },
+    {
+      "method": "fixed_sR",
+      "view": "L",
+      "scan": "recorded_R",
+      "centre_displacement_camera_mm": [
+        31.64290613486707,
+        -3.8312671897898296,
+        27.25379616330461
+      ],
+      "reference_px": {
+        "n": 3390,
+        "median": 217.4967903986668,
+        "p95": 224.30681319685763,
+        "max": 225.50406472650613
+      },
+      "native_simulation_px": {
+        "n": 3390,
+        "median": 107.1465794527736,
+        "p95": 109.37543891777987,
+        "max": 109.60566077622435
+      }
+    },
+    {
+      "method": "STEPS",
+      "view": "L",
+      "scan": "recorded_L",
+      "centre_displacement_camera_mm": [
+        0.1390614275976958,
+        -4.261408621076411,
+        27.346967780599943
+      ],
+      "reference_px": {
+        "n": 3390,
+        "median": 24.955368027588683,
+        "p95": 40.76423558608999,
+        "max": 43.3018298802299
+      },
+      "native_simulation_px": {
+        "n": 3390,
+        "median": 12.159938480368375,
+        "p95": 18.26751944814833,
+        "max": 19.221683500492247
+      }
+    },
+    {
+      "method": "fixed_sL",
+      "view": "R",
+      "scan": "recorded_L",
+      "centre_displacement_camera_mm": [
+        -31.420066765537506,
+        -4.412110530900969,
+        26.887992503613187
+      ],
+      "reference_px": {
+        "n": 3342,
+        "median": 228.99860306327435,
+        "p95": 256.19828997558284,
+        "max": 258.20583783899605
+      },
+      "native_simulation_px": {
+        "n": 3342,
+        "median": 112.86512335566027,
+        "p95": 122.22472096165552,
+        "max": 122.73270174578724
+      }
+    },
+    {
+      "method": "fixed_sR",
+      "view": "R",
+      "scan": "recorded_R",
+      "centre_displacement_camera_mm": [
+        0.08427091699773066,
+        -4.010705104249989,
+        26.84907195417466
+      ],
+      "reference_px": {
+        "n": 3342,
+        "median": 16.864569309922167,
+        "p95": 35.721404239226224,
+        "max": 43.51061703836532
+      },
+      "native_simulation_px": {
+        "n": 3342,
+        "median": 8.093845704036763,
+        "p95": 17.5854379470348,
+        "max": 21.06239012058236
+      }
+    },
+    {
+      "method": "STEPS",
+      "view": "R",
+      "scan": "recorded_R",
+      "centre_displacement_camera_mm": [
+        0.08427091699773066,
+        -4.010705104249989,
+        26.84907195417466
+      ],
+      "reference_px": {
+        "n": 3342,
+        "median": 16.864569309922167,
+        "p95": 35.721404239226224,
+        "max": 43.51061703836532
+      },
+      "native_simulation_px": {
+        "n": 3342,
+        "median": 8.093845704036763,
+        "p95": 17.5854379470348,
+        "max": 21.06239012058236
+      }
+    }
+  ],
+  "reprojection_max_px": 1.0089706847793423e-12,
+  "analytic_controls_pass": true
+}

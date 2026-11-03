@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "opencv": "5.0.0",
+  "opencv_python_headless_distribution": "5.0.0.93",
+  "Pillow": "12.3.0",
+  "research_seed": 20261025,
+  "new_model_training": false,
+  "additional_seed_runs": false,
+  "runtime_note": "Task-local dependencies; distributed code does not depend on original absolute project paths."
+}

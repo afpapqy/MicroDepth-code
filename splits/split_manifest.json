@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-10-25T09:59:27.760090+00:00",
+  "seed": 20261025,
+  "rng": "numpy.random.default_rng/PCG64, sorted category-specific session lists, category order recorded",
+  "category_order": [
+    "BrainTissue",
+    "MuscleTissue",
+    "OcularTissue",
+    "RobotEffector",
+    "CoreInst",
+    "AuxInst"
+  ],
+  "assignment_rule": "One test session per category; one validation session if the category has at least3sessions; remaining sessions for training. RobotEffector has2sessions and no category-specific validation session.",
+  "status": "Session-disjoint partition frozen before the SGBM evaluation and added after the v1.0 archive was published. Not part of the v1.0 archive. Not claimed specimen-disjoint.",
+  "index_sha256": "eb37380dff4c3534ff30497a602ebc16cee6629ee02055284e0caace5bd4b849",
+  "session_records": [
+    {
+      "category": "BrainTissue",
+      "session": "brain_microscissors_sucker_20260203_155147",
+      "partition": "test"
+    },
+    {
+      "category": "BrainTissue",
+      "session": "brain_curette_yellowBipolar_20260131_162705",
+      "partition": "validation"
+    },
+    {
+      "category": "BrainTissue",
+      "session": "brain_knife_sucker_20260202_182227",
+      "partition": "train"
+    },
+    {
+      "category": "BrainTissue",
+      "session": "brain_brownBipolar_joseph_20260203_192906",
+      "partition": "train"
+    },
+    {
+      "category": "BrainTissue",
+      "session": "brain_dissector_yellowBipolar_20260131_174533",
+      "partition": "train"
+    },
+    {
+      "category": "BrainTissue",
+      "session": "brain_curette_brownBipolar_20260131_152150",
+      "partition": "train"
+    },
+    {
+      "category": "BrainTissue",
+      "session": "brain_knife_spatula_20260131_211613",
+      "partition": "train"
+    },
+    {
+      "category": "BrainTissue",
+      "session": "brain_dissector_spatula_20260131_192748",
+      "partition": "train"
+    },
+    {
+      "category": "BrainTissue",
+      "session": "brain_microscissors_joseph_20260203_172104",
+      "partition": "train"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_joseph_microscissors_20260206_133800",
+      "partition": "test"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_joseph_brownBipolar_20260204_104720",
+      "partition": "validation"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_sucker_knife_20260206_122705",
+      "partition": "train"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_yellowBipolar_curette_20260204_170934",
+      "partition": "train"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_spatula_dissector_20260204_183247",
+      "partition": "train"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_curette_brownBipolar_20260204_125013",
+      "partition": "train"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_yellowBipolar_dissector_20260204_194911",
+      "partition": "train"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_sucker_microscissors_20260206_145942",
+      "partition": "train"
+    },
+    {
+      "category": "MuscleTissue",
+      "session": "chicken_spatula_knife_20260206_110634",
+      "partition": "train"
+    },
+    {
+      "category": "OcularTissue",
+      "session": "eye2_graySlitKnife_Bevel_20260130_202304",
+      "partition": "test"
+    },
+    {
+      "category": "OcularTissue",
+      "session": "eye3_cap_bonn_20260131_104629",
+      "partition": "validation"
+    },
+    {
+      "category": "OcularTissue",
+      "session": "eye1_redSlitKnife_15dStab_20260130_184906",
+      "partition": "train"
+    },
+    {
+      "category": "OcularTissue",
+      "session": "eye0_lightFiber_trocarNeedle_20260130_163453",
+      "partition": "train"
+    },
+    {
+      "category": "OcularTissue",
+      "session": "eye3_lightFiber_bonn_20260131_113851",
+      "partition": "train"
+    },
+    {
+      "category": "OcularTissue",
+      "session": "eye0_redSlitKnife_trocarNeedle_20260130_174041",
+      "partition": "train"
+    },
+    {
+      "category": "OcularTissue",
+      "session": "eye1_graySlitKnife_15dStab_20260130_193914",
+      "partition": "train"
+    },
+    {
+      "category": "OcularTissue",
+      "session": "eye2_cap_bevel_20260130_211044",
+      "partition": "train"
+    },
+    {
+      "category": "RobotEffector",
+      "session": "robotEffector_gripper_scissors_set00_20260128_155844",
+      "partition": "test"
+    },
+    {
+      "category": "RobotEffector",
+      "session": "robotEffector_gripper_scissors_set01_20260129_164119",
+      "partition": "train"
+    },
+    {
+      "category": "CoreInst",
+      "session": "coreInst_set01_20260206_100636",
+      "partition": "test"
+    },
+    {
+      "category": "CoreInst",
+      "session": "coreInst_set02_20260206_103903",
+      "partition": "validation"
+    },
+    {
+      "category": "CoreInst",
+      "session": "coreInst_set00_20260206_095748",
+      "partition": "train"
+    },
+    {
+      "category": "AuxInst",
+      "session": "auxInst_set00_20260205_082630",
+      "partition": "test"
+    },
+    {
+      "category": "AuxInst",
+      "session": "auxInst_set02_20260205_085145",
+      "partition": "validation"
+    },
+    {
+      "category": "AuxInst",
+      "session": "auxInst_set01_20260205_083635",
+      "partition": "train"
+    }
+  ],
+  "partition_frame_counts": {
+    "train": 2656,
+    "validation": 405,
+    "test": 525
+  },
+  "files_sha256": {
+    "train.txt": "764e6dd19966b45038cf0d4892fd5ad8ce427dee46ee55a2e0bf158d01a48ecb",
+    "validation.txt": "1715492ea1a89cdd05f69f763da7149260df329d6eb6d35d714771a55a65cc59",
+    "test.txt": "a270cb6549c51e458cb192914d7040b46e65c541f83118e0fa09509d95dd4238"
+  },
+  "sgbm_predeclared_parameters": {
+    "minDisparity": 0,
+    "numDisparities": 256,
+    "blockSize": 5,
+    "P1": 200,
+    "P2": 800,
+    "disp12MaxDiff": 1,
+    "preFilterCap": 63,
+    "uniquenessRatio": 10,
+    "speckleWindowSize": 0,
+    "speckleRange": 0,
+    "mode": "STEREO_SGBM_MODE_SGBM_3WAY",
+    "input": "8bit grayscale, original1280x960rectified images",
+    "invalid_prediction_policy": "For full-GT-valid EPE and Bad rates, unmatched SGBM pixels receive prediction0px. Report returned-prediction fraction and conditional EPE as well. Never silently drop unmatched GT-valid pixels."
+  },
+  "evaluation": "All published valid_mask pixels; corrected rectified axialZ/disparity. No tuning on test labels; no model training; SGBM is not evidence of learnability."
+}

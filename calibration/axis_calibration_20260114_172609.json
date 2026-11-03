@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-01-14T17:26:09.758372",
+  "method": "scanner_grayscale_camera_pnp",
+  "reference_calibration": {
+    "file": "calibration_20260114_114459.json",
+    "intrinsics_source": "datasetB.calibration.K_S, D_S"
+  },
+  "chessboard_config": {
+    "pattern_size": [
+      11,
+      8
+    ],
+    "square_size_mm": 5.0
+  },
+  "axis_direction_in_scanner_frame": {
+    "vector": [
+      0.9999599742796909,
+      0.00261355162679538,
+      -0.00855682104838687
+    ],
+    "unit": "unitless (normalized)",
+    "description": "位移台运动方向在扫描仪坐标系中的单位向量"
+  },
+  "quality_metrics": {
+    "angle_std_deg": 0.13244075961693552,
+    "mean_residual_mm": 0.06201765069590741,
+    "max_residual_mm": 0.11221686961759186,
+    "num_samples": 8,
+    "num_corners": 88
+  },
+  "capture_info": {
+    "positions_mm": [
+      -50,
+      -45,
+      -40,
+      -35,
+      -30,
+      -25,
+      -20,
+      -15
+    ],
+    "target_positions_mm": [
+      -50,
+      -45,
+      -40,
+      -35,
+      -30,
+      -25,
+      -20,
+      -15
+    ]
+  },
+  "camera_intrinsics": {
+    "K_S": [
+      [
+        3556.9662308875254,
+        0.0,
+        769.9951438065525
+      ],
+      [
+        0.0,
+        3556.336576645628,
+        1022.6829027451762
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D_S": [
+      -0.10924245905154438,
+      0.8650907219304423,
+      0.0014913567956988426,
+      0.00037713628420302616,
+      -4.7483210779828475
+    ],
+    "rotation_angle_deg": 90
+  },
+  "usage_example": {
+    "displacement_mm": 10.0,
+    "T_offset": [
+      9.999599742796908,
+      0.0261355162679538,
+      -0.0855682104838687
+    ]
+  }
+}

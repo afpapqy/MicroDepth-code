@@ -1,0 +1,26 @@
+{
+  "seed": 20261025,
+  "image_size_wh": [
+    1280,
+    960
+  ],
+  "input": "grayscale",
+  "cpu_threads": 2,
+  "minDisparity": 0,
+  "numDisparities": 256,
+  "blockSize": 5,
+  "P1": 200,
+  "P2": 800,
+  "disp12MaxDiff": 1,
+  "preFilterCap": 63,
+  "uniquenessRatio": 10,
+  "speckleWindowSize": 0,
+  "speckleRange": 0,
+  "mode": "SGBM_3WAY",
+  "full_valid_pixels": 33707574,
+  "returned_prediction_pixels": 31435246,
+  "unmatched_prediction_disparity": 0,
+  "aggregate_epe_px": 14.0116,
+  "returned_only_epe_px": 2.4096,
+  "table_precision": "Per-category CSV values retain the prior report's rounding."
+}

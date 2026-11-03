@@ -1,0 +1,7 @@
+﻿category,rgb_to_depth_median_px,rgb_to_depth_p95_px,depth_to_rgb_median_px,depth_to_rgb_p95_px
+BrainTissue,16.13,83.28,2.23,17.03
+MuscleTissue,20.38,117.03,2.03,50.98
+OcularTissue,10.63,45.78,2.23,32.03
+RobotEffector,39.13,149.83,2.83,25.08
+CoreInst,15.63,101.18,2.03,17.03
+AuxInst,14.88,69.23,1.03,17.48

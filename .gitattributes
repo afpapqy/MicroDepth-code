@@ -1,0 +1,7 @@
+# The split lists are kept byte for byte. Their SHA-256 values are recorded in splits/split_manifest.json,
+# so Git must not change their line endings when the repository is cloned.
+splits/*.txt -text
+# Binary data must never go through line-ending conversion (core.autocrlf is on in the authors' clone).
+*.npy binary
+*.npz binary
+*.png binary

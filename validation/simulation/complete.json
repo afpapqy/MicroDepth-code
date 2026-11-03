@@ -1,0 +1,347 @@
+{
+  "status": "complete",
+  "seed": 20261025,
+  "protocol_sha256": "6236cad5eded07a4ff2388d3ea27d775f418a822343681fb606bc6e3f4b233a8",
+  "exactly_three_methods": [
+    "fixed_sL",
+    "fixed_sR",
+    "STEPS"
+  ],
+  "primary_rows": 36,
+  "all_metric_rows": 216,
+  "all_source_inputs_unchanged": true,
+  "equal_total_ray_budget": 199176,
+  "case_checks": [
+    {
+      "case": "gap_0p5mm",
+      "missing": "none",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_0p5mm",
+      "missing": "tip_drop",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_0p5mm",
+      "missing": "all_tool_drop",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_2p0mm",
+      "missing": "none",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_2p0mm",
+      "missing": "tip_drop",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_2p0mm",
+      "missing": "all_tool_drop",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_5p0mm",
+      "missing": "none",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_5p0mm",
+      "missing": "tip_drop",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_5p0mm",
+      "missing": "all_tool_drop",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_10p0mm",
+      "missing": "none",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_10p0mm",
+      "missing": "tip_drop",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    },
+    {
+      "case": "gap_10p0mm",
+      "missing": "all_tool_drop",
+      "equal_total_attempted_rays": true,
+      "no_shadowed_background_restored": true,
+      "methods": [
+        "fixed_sL",
+        "fixed_sR",
+        "STEPS"
+      ]
+    }
+  ],
+  "primary_condition": "5 mm clearance; distal 22 mm tool-return deletion",
+  "primary_outcomes": [
+    {
+      "case": "gap_5p0mm",
+      "gap_mm": 5.0,
+      "missing": "tip_drop",
+      "method": "fixed_sL",
+      "view": "L+R",
+      "filter": "legacy",
+      "attempted_rays_total": 199176,
+      "roi_pixels": 6732,
+      "returned": 4059,
+      "pure_background": 599,
+      "mixed": 564,
+      "other_wrong_surface": 0,
+      "correct_foreground": 2896,
+      "missing_pixels": 2673,
+      "background_over_all_foreground": 0.08897801544860369,
+      "mixed_over_all_foreground": 0.08377896613190731,
+      "correct_foreground_over_all_foreground": 0.43018419489007725,
+      "no_output_over_all_foreground": 0.39705882352941174
+    },
+    {
+      "case": "gap_5p0mm",
+      "gap_mm": 5.0,
+      "missing": "tip_drop",
+      "method": "fixed_sR",
+      "view": "L+R",
+      "filter": "legacy",
+      "attempted_rays_total": 199176,
+      "roi_pixels": 6732,
+      "returned": 4655,
+      "pure_background": 723,
+      "mixed": 620,
+      "other_wrong_surface": 0,
+      "correct_foreground": 3312,
+      "missing_pixels": 2077,
+      "background_over_all_foreground": 0.10739750445632798,
+      "mixed_over_all_foreground": 0.09209744503862151,
+      "correct_foreground_over_all_foreground": 0.4919786096256685,
+      "no_output_over_all_foreground": 0.3085264408793821
+    },
+    {
+      "case": "gap_5p0mm",
+      "gap_mm": 5.0,
+      "missing": "tip_drop",
+      "method": "STEPS",
+      "view": "L+R",
+      "filter": "legacy",
+      "attempted_rays_total": 199176,
+      "roi_pixels": 6732,
+      "returned": 4842,
+      "pure_background": 269,
+      "mixed": 221,
+      "other_wrong_surface": 0,
+      "correct_foreground": 4352,
+      "missing_pixels": 1890,
+      "background_over_all_foreground": 0.03995840760546643,
+      "mixed_over_all_foreground": 0.03282828282828283,
+      "correct_foreground_over_all_foreground": 0.6464646464646465,
+      "no_output_over_all_foreground": 0.2807486631016043
+    }
+  ],
+  "parallax": [
+    {
+      "method": "fixed_sL",
+      "view": "L",
+      "scan": "recorded_L",
+      "centre_displacement_camera_mm": [
+        0.1390614275976958,
+        -4.261408621076411,
+        27.346967780599943
+      ],
+      "reference_px": {
+        "n": 3390,
+        "median": 24.955368027588683,
+        "p95": 40.76423558608999,
+        "max": 43.3018298802299
+      },
+      "native_simulation_px": {
+        "n": 3390,
+        "median": 12.159938480368375,
+        "p95": 18.26751944814833,
+        "max": 19.221683500492247
+      }
+    },
+    {
+      "method": "fixed_sR",
+      "view": "L",
+      "scan": "recorded_R",
+      "centre_displacement_camera_mm": [
+        31.64290613486707,
+        -3.8312671897898296,
+        27.25379616330461
+      ],
+      "reference_px": {
+        "n": 3390,
+        "median": 217.4967903986668,
+        "p95": 224.30681319685763,
+        "max": 225.50406472650613
+      },
+      "native_simulation_px": {
+        "n": 3390,
+        "median": 107.1465794527736,
+        "p95": 109.37543891777987,
+        "max": 109.60566077622435
+      }
+    },
+    {
+      "method": "STEPS",
+      "view": "L",
+      "scan": "recorded_L",
+      "centre_displacement_camera_mm": [
+        0.1390614275976958,
+        -4.261408621076411,
+        27.346967780599943
+      ],
+      "reference_px": {
+        "n": 3390,
+        "median": 24.955368027588683,
+        "p95": 40.76423558608999,
+        "max": 43.3018298802299
+      },
+      "native_simulation_px": {
+        "n": 3390,
+        "median": 12.159938480368375,
+        "p95": 18.26751944814833,
+        "max": 19.221683500492247
+      }
+    },
+    {
+      "method": "fixed_sL",
+      "view": "R",
+      "scan": "recorded_L",
+      "centre_displacement_camera_mm": [
+        -31.420066765537506,
+        -4.412110530900969,
+        26.887992503613187
+      ],
+      "reference_px": {
+        "n": 3342,
+        "median": 228.99860306327435,
+        "p95": 256.19828997558284,
+        "max": 258.20583783899605
+      },
+      "native_simulation_px": {
+        "n": 3342,
+        "median": 112.86512335566027,
+        "p95": 122.22472096165552,
+        "max": 122.73270174578724
+      }
+    },
+    {
+      "method": "fixed_sR",
+      "view": "R",
+      "scan": "recorded_R",
+      "centre_displacement_camera_mm": [
+        0.08427091699773066,
+        -4.010705104249989,
+        26.84907195417466
+      ],
+      "reference_px": {
+        "n": 3342,
+        "median": 16.864569309922167,
+        "p95": 35.721404239226224,
+        "max": 43.51061703836532
+      },
+      "native_simulation_px": {
+        "n": 3342,
+        "median": 8.093845704036763,
+        "p95": 17.5854379470348,
+        "max": 21.06239012058236
+      }
+    },
+    {
+      "method": "STEPS",
+      "view": "R",
+      "scan": "recorded_R",
+      "centre_displacement_camera_mm": [
+        0.08427091699773066,
+        -4.010705104249989,
+        26.84907195417466
+      ],
+      "reference_px": {
+        "n": 3342,
+        "median": 16.864569309922167,
+        "p95": 35.721404239226224,
+        "max": 43.51061703836532
+      },
+      "native_simulation_px": {
+        "n": 3342,
+        "median": 8.093845704036763,
+        "p95": 17.5854379470348,
+        "max": 21.06239012058236
+      }
+    }
+  ],
+  "archived_equal_budget_steps_reproduced": true,
+  "seconds": 13.288803300005384
+}

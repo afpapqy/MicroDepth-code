@@ -1,0 +1,15 @@
+{
+  "frames": 3586,
+  "rgb_state": "rectified",
+  "support": "3x3 dilation of published valid mask",
+  "canny_thresholds": [
+    50,
+    150
+  ],
+  "canny_aperture": 3,
+  "L2gradient": false,
+  "depth_edge": "four-neighbour valid-depth jump > 1 mm after axial conversion",
+  "distance": "Euclidean nearest edge",
+  "histogram_bin_width_px": 0.05,
+  "interpretation": "Unmatched edge proximity, not correspondence-based registration error."
+}

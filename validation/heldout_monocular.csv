@@ -1,0 +1,8 @@
+﻿category,abs_rel,rmse_mm,delta1_pct,delta2_pct
+BrainTissue,0.0457,16.380,99.02,99.92
+MuscleTissue,0.0289,9.063,99.96,100.00
+OcularTissue,0.0227,9.177,99.15,100.00
+RobotEffector,0.0759,27.096,94.15,96.91
+CoreInst,0.0913,28.697,85.14,99.11
+AuxInst,0.0379,12.525,99.26,100.00
+Overall,0.0546,20.329,96.68,98.91

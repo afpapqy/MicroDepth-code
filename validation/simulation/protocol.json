@@ -1,0 +1,54 @@
+{
+  "frozen_utc": "2026-10-30T04:51:54.034225+00:00",
+  "seed": 20261025,
+  "methods": {
+    "fixed_sL": {
+      "scans": [
+        "recorded_L",
+        "recorded_L"
+      ],
+      "acquisitions": 1,
+      "checkerboard_half_per_scan": false
+    },
+    "fixed_sR": {
+      "scans": [
+        "recorded_R",
+        "recorded_R"
+      ],
+      "acquisitions": 1,
+      "checkerboard_half_per_scan": false
+    },
+    "STEPS": {
+      "scans": [
+        "recorded_L",
+        "recorded_R"
+      ],
+      "acquisitions": 2,
+      "checkerboard_half_per_scan": true
+    }
+  },
+  "target_rgb_size": [
+    512,
+    384
+  ],
+  "attempted_rays_total_per_method": 199176,
+  "fixed_budget": "One complete 386 x 516 grid at the chosen calibrated scan pose, reused for both RGB projections.",
+  "steps_budget": "Two scans; even checkerboard cells (u+v)%2=0 on each native simulation grid, 99,588 attempted rays per pose.",
+  "budget_order": "Choose attempted scanner rays independently of hits or labels; remove specified first-hit tool returns without restoring occluded background.",
+  "scope": "The frozen brain/closed-forceps scene, four gaps x three dropout conditions, exactly three calibrated strategies. No constructed scanner reorientation.",
+  "fixed_meaning": "One depth acquisition position. The initial travel from s0 to that position is permitted; this is not a claim of zero stage movement throughout RGB and depth acquisition.",
+  "dropout": {
+    "none": "Keep all first-hit points.",
+    "tip_drop": "Delete existing tool first hits within the distal 22 mm along the declared XY tool axis.",
+    "all_tool_drop": "Delete all existing tool first hits. Deliberate upper-bound stress case, not a measured optical failure probability."
+  },
+  "main_estimator": "Pure-background assignments divided by all complete-scene foreground pixel centres, pooled across both views by counts. Mixed, correct foreground and no output are retained separately.",
+  "processing": "Unchanged legacy_mean rasterizer and legacy left-right score/mask. Unfiltered provenance counts are also saved.",
+  "parallax": "All complete-scene foreground centres in the predeclared 5 mm case, without method-output filtering. Common RGB orientation; f_reference=1316.3658753527188 px. delta=f*((p-d)_xy/(p-d)_z-p_xy/p_z). Also report native distorted 512x384 chart pixels.",
+  "cache_reuse": "Reuse unchanged BVH first-hit caches for the two real calibrated positions and complete-scene RGB truth; recompute all strategy-dependent processing and counts.",
+  "runtime": {
+    "python": "3.14.2",
+    "numpy": "2.4.2",
+    "opencv": "4.13.0"
+  }
+}

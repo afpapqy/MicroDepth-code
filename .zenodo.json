@@ -1,0 +1,51 @@
+{
+  "title": "MicroDepth: processing and evaluation code, session partition and validation files",
+  "upload_type": "software",
+  "description": "Code, session partition and machine-readable validation files that accompany the Scientific Data descriptor \"A stereo-depth dataset for microsurgical scenes of soft tissues\". The dataset itself is archived separately.",
+  "creators": [
+    {
+      "name": "Fu, Pan",
+      "affiliation": "School of Automation, Beijing Institute of Technology, Beijing, China; Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+    },
+    {
+      "name": "Li, Zhen",
+      "affiliation": "Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+    },
+    {
+      "name": "Ye, Qiang",
+      "affiliation": "Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+    },
+    {
+      "name": "Ren, Han",
+      "affiliation": "Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+    },
+    {
+      "name": "Zhai, Yu-Peng",
+      "affiliation": "Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+    },
+    {
+      "name": "Wang, Jun-Zheng",
+      "affiliation": "School of Automation, Beijing Institute of Technology, Beijing, China"
+    },
+    {
+      "name": "Bian, Gui-Bin",
+      "affiliation": "Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "stereo depth",
+    "microsurgery",
+    "structured light",
+    "RGB-D dataset",
+    "ex vivo"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.19680077",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ]
+}

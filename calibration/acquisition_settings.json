@@ -1,0 +1,24 @@
+{
+  "units": "mm",
+  "source": "retained raw metadata of all3586frames; stage-axis calibration snapshot; independently rederived geometry",
+  "s0_mm": -90.0,
+  "delta_s_right_mm": 50.444020499294105,
+  "delta_s_left_mm": 81.95093932581415,
+  "apparent_target_motion_axis_in_texture_frame": [
+    0.9999599742796909,
+    0.00261355162679538,
+    -0.00855682104838687
+  ],
+  "axis_sign": "apparent fixed-target motion for positive command; physical scanner origin moves oppositely",
+  "native_rotation": "CCW90: (x,y,z)->(-y,x,z)",
+  "empirical_offset_texture_frame_mm": [
+    -0.8,
+    -0.2,
+    0.0
+  ],
+  "interpretation": "Empirical coordinate correction, not a verified physical optical-centre offset.",
+  "reference_pose": "calibrated texture-camera frame at command s0",
+  "native_to_reference": "Q*p_native+b-apparent_axis*(s-s0)",
+  "reference_to_camera": "R_SC^T*(p_reference-t_SC), where p_S=R_SC*p_C+t_SC",
+  "historical_limit": "No original point clouds or all scanner attempts retained; full historical rerasterization cannot be verified."
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-29",
+  "scanner": "Photoneo PhoXi XS (device identifier removed)",
+  "xyz_depth_units": "metres",
+  "native_size_wh": [
+    2064,
+    1544
+  ],
+  "display_size_wh": [
+    1544,
+    2064
+  ],
+  "ShutterMultiplier": 4,
+  "ScanMultiplier": 1,
+  "CodingStrategy": "Interreflections",
+  "CodingQuality": "Ultra",
+  "SinglePatternExposure": 10.24,
+  "TextureSource": "LED",
+  "LEDPower": 800,
+  "MaxInaccuracy": 0.5,
+  "SurfaceSmoothness": "Normal",
+  "HoleFilling": "Off",
+  "InterreflectionsFiltering": true,
+  "InterreflectionStrength": 0.6,
+  "GlareCompensation": false,
+  "CalibrationVolumeOnly": true,
+  "analysis_registration": false,
+  "analysis_detrending": false,
+  "analysis_smoothing": false,
+  "analysis_hole_filling": false,
+  "temporal_sd_based_exclusion": false,
+  "motion_screen": {
+    "texture_maximum_dimension": 640,
+    "lk_forward_backward_tolerance_downsampled_px": 0.5,
+    "minimum_tracks": 20,
+    "median_limit_native_px": 2,
+    "p95_limit_native_px": 5
+  }
+}
