@@ -2,7 +2,7 @@
 
 Code accompanying the *Scientific Data* descriptor **A stereo-depth dataset for microsurgical scenes of soft tissues**.
 
-The dataset is on Zenodo (version 1.0.0, DOI [10.5281/zenodo.19680077](https://doi.org/10.5281/zenodo.19680077), concept DOI 10.5281/zenodo.19680076). This repository holds the code that reads the released data and reproduces the processing and evaluation reported in the descriptor. It also holds the session partition and the machine-readable validation tables that the descriptor cites. A Photoneo scanner, the motion stage and the acquisition application are not needed.
+The dataset is on Zenodo (version 1.1.0, DOI [10.5281/zenodo.23793900](https://doi.org/10.5281/zenodo.23793900); concept DOI 10.5281/zenodo.19680076). This repository holds the code that reads the released data and reproduces the processing and evaluation reported in the descriptor. It also holds the session partition and the machine-readable validation tables that the descriptor cites. A Photoneo scanner, the motion stage and the acquisition application are not needed.
 
 ## Contents
 
